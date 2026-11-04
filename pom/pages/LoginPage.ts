@@ -1,5 +1,4 @@
 import { Locator, Page } from '@playwright/test'
-import { OrderPage } from './order-page'
 import { SERVICE_URL } from '../../config/env-data'
 import { Button } from '../atoms/Button'
 
