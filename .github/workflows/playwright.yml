@@ -31,7 +31,7 @@ jobs:
 
       - name: Run Playwright tests
         env:
-          URL: ${{ secrets.URL }}
+          URL: ${{ vars.URL }}
           TEST_USERNAME: ${{ secrets.TEST_USERNAME }}
           TEST_PASSWORD: ${{ secrets.TEST_PASSWORD }}
         run: npx playwright test
